@@ -23,4 +23,4 @@ urlpatterns = [
     path('unread_messages/<str:username>', views.UnreadMessages.as_view(), name='unread_messages'),
     path('write',views.Write.as_view(), name='write'),
     path('message/<int:id>', views.MessageDetails.as_view(), name='message')
-]
+] 
